@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import patty from  './imgs/patty.png'
+import note from  './imgs/note.png'
 export default class Footer extends Component {
   render() {
     //let resumeData = this.props.resumeData;
-    return (<h1>Copyright 2021 by Josh Broughton</h1>
+    return (<div class="Footer">
+    <img src={patty} alt="patty"/><h1>Copyright 2021 by Josh Broughton</h1>
+    <div class="Footer">
+    <img src={note} alt="note"/> </div>
+    </div>
     //   <footer>
     //   <div className="row">
     //     <div className="twelve columns">
