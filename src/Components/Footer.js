@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
     //let resumeData = this.props.resumeData;
-    return (<h1>Footer</h1>
+    return (<h1>Copyright 2021 by Josh Broughton</h1>
     //   <footer>
     //   <div className="row">
     //     <div className="twelve columns">

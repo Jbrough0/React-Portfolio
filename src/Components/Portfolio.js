@@ -5,7 +5,8 @@ export default class Porfolio extends Component {
     return (
       <section id="portfolio">
         {this.props.name}
-        {this.props.imgurl}
+        <a href={this.props.imgurl}>Project Link</a>
+        
         
       {/* <div className="row">
         <div className="twelve columns collapsed">

@@ -8,9 +8,10 @@ import resumeData from './data/ResumeData.json';
 function App() {
   return (
     <div className = "Component"> 
+    <Header></Header>
     <About></About>
     {resumeData.map((data) =>(<Portfolio name={data.name} imgurl={data.imgurl} />))}
-    <Header></Header>
+    
     <Contact></Contact>
     <Footer></Footer>
 
