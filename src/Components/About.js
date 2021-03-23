@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import annie from './/annie.jpg';
+import annie from './annie.jpg';
 export default class About extends Component {
   render() {
    let resumeData = this.props.resumeData;
